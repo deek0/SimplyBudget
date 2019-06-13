@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name ="add_expense_textbox_size">300dp</dimen>
+    <integer name="budget_overview_progress_bar_max">800</integer>
+
+</resources>

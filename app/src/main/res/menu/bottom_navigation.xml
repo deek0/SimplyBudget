@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottom_nav_home_title"
+        />
+    <item
+        android:id="@+id/nav_budget_overview"
+        android:icon="@drawable/ic_budget"
+        android:title="@string/bottom_nav_budget_title"
+        />
+    <item
+        android:id="@+id/nav_expense_tracker"
+        android:icon="@drawable/ic_expense_tracker"
+        android:title="@string/bottom_nav_expense_tracker_title"
+        />
+
+</menu>

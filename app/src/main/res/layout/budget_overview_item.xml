@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_view_category_budget"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:text="Category"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="12sp"
+            android:autoSizeMaxTextSize="150sp"
+            android:autoSizeStepGranularity="2sp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/budget_bars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text_view_category_budget"
+            android:layout_toLeftOf="@+id/budget_amounts"
+            android:layout_toEndOf="@+id/text_view_category_budget"
+            android:layout_toStartOf="@+id/budget_amounts"
+            android:layout_centerVertical="true">
+
+            <ProgressBar
+                android:id="@+id/progress_bar_budget"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:minWidth="20dp"
+                android:max="@integer/budget_overview_progress_bar_max"
+                style="?android:attr/progressBarStyleHorizontal"
+                />
+
+            <ProgressBar
+                android:id="@+id/progress_bar_spent"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:minWidth="20dp"
+                android:max="@integer/budget_overview_progress_bar_max"
+                android:layout_below="@+id/progress_bar_budget"
+
+                style="?android:attr/progressBarStyleHorizontal"
+                 />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/budget_amounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/text_view_budgeted_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Cost"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/text_view_spent_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_view_budgeted_amount"
+                android:text="Cost"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

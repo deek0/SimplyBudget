@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        
+        <TextView
+            android:id="@+id/text_view_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:text="Date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/text_view_cost"
+            android:layout_toLeftOf="@id/text_view_cost"
+            android:layout_toEndOf="@+id/text_view_date"
+            android:layout_toRightOf="@id/text_view_date"
+            android:text="Category"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <TextView
+            android:id="@+id/text_view_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_description"
+            android:maxLines="1"
+            android:layout_toStartOf="@+id/text_view_cost"
+            android:layout_toLeftOf="@id/text_view_cost"
+            android:layout_toEndOf="@+id/text_view_date"
+            android:layout_toRightOf="@id/text_view_date"
+
+
+            android:text="Description"
+            />
+        <TextView
+            android:id="@+id/text_view_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_centerVertical="true"
+
+            android:text="Cost"/>
+        
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

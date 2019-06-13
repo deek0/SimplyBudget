@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SimplyBudget</string>
+
+
+    <string name="bottom_nav_home_title">Home</string>
+    <string name="bottom_nav_expense_tracker_title">Expense Tracker</string>
+    <string name="bottom_nav_budget_title">Budget Overview</string>
+    <string name="fragment_add_expense_title">Add Expense</string>
+    <string name="fragment_add_category_title">Add Category</string>
+    <string name="fragment_edit_expense_title">Edit Expense</string>
+    <string name="fragment_edit_category_title">Edit Category</string>
+
+    <string name="input_expense_description_hint">Enter a brief description</string>
+    <string name="input_expense_category_hint">Choose the budget category</string>
+    <string name="input_expense_cost_hint">Enter the cost</string>
+    <string name="input_expense_date_hint">Date</string>
+    <string name="button_save_text">Add</string>
+
+    <string name="button_back_add_expense_menu">Back</string>
+
+    <string name="input_budget_category_hint">Enter the new category name</string>
+    <string name="input_budget_amount_hint">Enter the monthly amount budgeted</string>
+    <string name="checkbox_budget_one_time_text">One-time payment</string>
+
+    <string name="date_column_title">Date</string>
+    <string name="cost_column_title">Cost</string>
+    <string name="description_column_title">Description</string>
+    <string name="category_column_title">Category</string>
+    <string name="budgeted_amount_column_title">Budgeted</string>
+    <string name="spent_amount_column_title">Spent</string>
+    <string name="id_column_title">ID</string>
+    <string name="scheduled_payment_column_title">Scheduled</string>
+
+
+
+</resources>
